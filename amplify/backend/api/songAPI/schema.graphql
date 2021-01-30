@@ -1,0 +1,8 @@
+type Song @model @auth(rules: [{ allow: public, provider: iam }]) {
+  id: ID!
+  title: String!
+  description: String!
+  filePath: String!
+  like: Int!
+  owner: String!
+}
