@@ -1,73 +1,73 @@
 const triviaQuestions = [
 	{
-		question: "",
+		question: "'Have you check the children?'",
 		options: {
-			a: "",
-			b: "",
-			c: "",
-			d: ""
+			a: "Psycho",
+			b: "Nightmare on Elm Street",
+			c: "When a Stranger Calls",
+			d: "Rosemary's Baby"
 		},
-		answer: ""
+		answer: "c"
 	},
 	{
-		question: "",
+		question: "'Whatever you do, don't...fall...asleep'",
 		options: {
-			a: "",
-			b: "",
-			c: "",
-			d: ""
+			a: "The Exorcist",
+			b: "The Hills Have Eyes",
+			c: "Paranormal Activity",
+			d: "Nightmare on Elm Street"
 		},
-		answer: ""
+		answer: "d"
 	},
 	{
-		question: "",
+		question: "'What have you done to its eyes?!'",
 		options: {
-			a: "",
-			b: "",
-			c: "",
-			d: ""
+			a: "Rosemary's baby",
+			b: "The Omen",
+			c: "The Exorcist",
+			d: "Village of the Damned"
 		},
-		answer: ""
+		answer: "a"
 	},
 	{
-		question: "",
+		question: "'I realized that what was living behind that boy’s eyes was purely and simply evil.'",
 		options: {
-			a: "",
-			b: "",
-			c: "",
-			d: ""
+			a: "The Omen",
+			b: "Halloween",
+			c: "The Shining",
+			d: "Friday the 13th"
 		},
-		answer: ""
+		answer: "b"
 	},
 	{
-		question: "",
+		question: "'David…If you kill him, he will win.'",
 		options: {
-			a: "",
-			b: "",
-			c: "",
-			d: ""
+			a: "Se7en",
+			b: "The Ring",
+			c: "Invasion of the body snatchers",
+			d: "Psycho"
 		},
-		answer: ""
+		answer: "a"
 	},
 	{
-		question: "",
+		question: "What classic horror movie was originally titled The Babysitter Murders?",
 		options: {
-			a: "",
-			b: "",
-			c: "",
-			d: ""
+			a: "A Nightmare on Elm Street",
+			b: "Rosemary's Baby",
+			c: "Scream",
+			d: "Halloween"
 		},
-		answer: ""
+		answer: "d"
 	},
 	{
-		question: "",
+		question: "What horror film was the first movie to show a woman in just a bra and slip?",
 		options: {
-			a: "",
-			b: "",
-			c: "",
-			d: ""
+			a: "The Haunting",
+			b: "Psycho",
+			c: "The Wax Musium",
+			d: "Bride of Frankenstein"
 		},
-		answer: ""
+		answer: "b"
 	}
 
 ]
