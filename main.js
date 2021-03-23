@@ -79,3 +79,24 @@ const triviaQuestions = [
 	}
 
 ]
+
+
+const container = document.querySelector('#container')
+
+const renderQuestion = ({question, options}) => {
+	return `<div>
+				<h1>${question}</h1>
+				<p>${options}</p>
+			</div>`
+}
+
+const renderQuestions = (questions) => {
+	let html = "";
+	for(let question of questions) {
+		html += renderQuestion(question)
+	}
+
+	container.innerHTML = html
+}
+
+renderQuestions(triviaQuestions)
