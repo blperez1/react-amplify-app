@@ -1,53 +1,58 @@
 const triviaQuestions = [
 	{
-		question: "'Have you check the children?'",
+		question: "What is unusual about the videotape in The Ring?",
 		options: {
-			a: "Psycho",
-			b: "Nightmare on Elm Street",
-			c: "When a Stranger Calls",
-			d: "Rosemary's Baby"
+			a: "It won't burn if fire",
+			b: "It doesn't have a time code",
+			c: "It can't be copied",
+			d: "It's More than 100 years old"
 		},
-		answer: "c"
+		answer: "b",
+		explaination: "The tape's overscan does not include time code, which suggests that it wasn't made using electronic equipment."
 	},
 	{
-		question: "'Whatever you do, don't...fall...asleep'",
+		question: "What is the name of the apartment building Guy and Rosemary move into in Rosemary's Baby?",
 		options: {
-			a: "The Exorcist",
-			b: "The Hills Have Eyes",
-			c: "Paranormal Activity",
-			d: "Nightmare on Elm Street"
+			a: "The Brodsky",
+			b: "The Branson",
+			c: "The Bramford",
+			d: "The Brockworth"
 		},
-		answer: "d"
+		answer: "c",
+		explaination: "Author Ira Levin chose the name 'Bramford' in honor of Bram Stoker, the creator of "
 	},
 	{
-		question: "'What have you done to its eyes?!'",
+		question: "Who is responsible for releasing the deadly virus in 28 Days Later?",
 		options: {
-			a: "Rosemary's baby",
-			b: "The Omen",
-			c: "The Exorcist",
-			d: "Village of the Damned"
+			a: "Taxi Driver",
+			b: "Islamic Terrorists",
+			c: "Animal Rights Activists",
+			d: "The Chinese Government"
 		},
-		answer: "a"
+		answer: "c",
+		explaination: "A highly contagious, rage-inducing virus is unleashed in Great Britain after a group of animal rights activists attempt to free chimpanzees infected with the virus in Cambridge."
 	},
 	{
-		question: "'I realized that what was living behind that boy’s eyes was purely and simply evil.'",
+		question: "Which room does Dick Hallorann tell Danny to stay away from in The Shining?",
 		options: {
-			a: "The Omen",
-			b: "Halloween",
-			c: "The Shining",
-			d: "Friday the 13th"
+			a: "311",
+			b: "119",
+			c: "455",
+			d: "237"
 		},
-		answer: "b"
+		answer: "d",
+		explaination: "Danny visits room 237 after a ball rolls to him from its open door. Later, he claims that a 'crazy woman' tried to strangle him."
 	},
 	{
-		question: "'David…If you kill him, he will win.'",
+		question: "Whose skin does Kirsty wear in Hellbound: Hellraiser II?",
 		options: {
-			a: "Se7en",
-			b: "The Ring",
-			c: "Invasion of the body snatchers",
-			d: "Psycho"
+			a: "Frank's",
+			b: "Julia's",
+			c: "Larry's",
+			d: "Tiffany's"
 		},
-		answer: "a"
+		answer: "b",
+		explaination: "Kirsty finds Julia's skin and wears it to distract Channard, giving Tiffany enough time to solve the Lament Configuration and close the door to hell."
 	},
 	{
 		question: "What classic horror movie was originally titled The Babysitter Murders?",
@@ -57,7 +62,9 @@ const triviaQuestions = [
 			c: "Scream",
 			d: "Halloween"
 		},
-		answer: "d"
+		answer: "d",
+		explaination: "Director John Carpenter originally intended to call his movie The Babysitter Murders, but producer Irwin Yablans thought the story might resonate more if it were based around a specific holiday, so the title was changed to Halloween."
+	
 	},
 	{
 		question: "What horror film was the first movie to show a woman in just a bra and slip?",
@@ -67,7 +74,8 @@ const triviaQuestions = [
 			c: "The Wax Musium",
 			d: "Bride of Frankenstein"
 		},
-		answer: "b"
+		answer: "b",
+		explaination: "In the opening scene of Psycho, Marion Crane (played by Janet Leigh) wears only a white bra and half-slip, having just had a mid-day tryst with her divorced lover in a hotel. While the scene leaves much to the modern imagination, in 1960 it was shockingly direct."
 	}
 
 ]
