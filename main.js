@@ -81,30 +81,32 @@ const triviaQuestions = [
 ]
 
 
-const container = document.querySelector('#questionDiv')
-// const nextBtn = document.querySelector('#')
+const container = document.querySelector('#container')
+const nextBtn = document.querySelector('#next')
 // render each question on single page
+let currentIndex = 0;
 const renderQuestion = ({question, options}) => {
-	return `<div>
+	container.innerHTML = `
 				<h3>${question}</h3>
-				<p>${options.a}</p>
-				<p>${options.b}</p>
-				<p>${options.c}</p>
-				<p>${options.d}</p>
-			</div>`
+				<div>
+					<a href="#">${options.a}</a>
+					<a href="#">${options.b}</a>
+					<a href="#">${options.d}</a>
+					<a href="#">${options.c}</a>
+				</div>
+			`
+	
 }
 
-const renderQuestions = (questions) => {
-	let html = "";
-	for(let question of questions) {
-		html += renderQuestion(question)
-	}
-
-	container.innerHTML = html
-}
-
-renderQuestions(triviaQuestions)
+renderQuestion(triviaQuestions[currentIndex])
 
 
-// render one quesiton at a time
+nextBtn.addEventListener('click', (e) => {
+	e.preventDefault();
+	currentIndex++
+	renderQuestion(triviaQuestions[currentIndex])
+
+})
+
+
 
