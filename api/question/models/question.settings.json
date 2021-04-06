@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "name": "Question",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "prompt": {
+      "type": "string"
+    },
+    "options": {
+      "type": "json"
+    },
+    "answer": {
+      "type": "string"
+    },
+    "explanation": {
+      "type": "text"
+    },
+    "value": {
+      "type": "integer"
+    }
+  }
+}
